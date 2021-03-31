@@ -49,10 +49,10 @@ _fx.write('HELLO !!', {
     }
 </style>
 //Html
-<div class='col'>
-    <label for="file-input" class="custom-file-upload">
+< div class='col'>
+    < label for="file-input" class="custom-file-upload">
         Cargar
-    </label>
-    <input id="file-input" type="file" />
-</div>
+    </ label>
+    < in put id="file-input" type="file" />
+</ div>
         
