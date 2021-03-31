@@ -33,4 +33,26 @@ _fx.write('HELLO !!', {
   limpiar: true,
   elemento: '#newspaper'
 });
+
+
+//Style
+<style>
+    input[type="file"] {
+        display: none;
+    }
+
+    .custom-file-upload {
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+    }
+</style>
+//Html
+<div class='col'>
+    <label for="file-input" class="custom-file-upload">
+        Cargar
+    </label>
+    <input id="file-input" type="file" />
+</div>
         
