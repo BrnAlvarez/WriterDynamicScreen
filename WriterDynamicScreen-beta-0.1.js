@@ -2,14 +2,14 @@
     let _fx = function () {
         let fnx = {
             write: function (origin, element) {
-
+                let clean = true;
                 if (!origin || typeof origin === "object")
                     return;
 
                 if (!element)
                     return false;
                 if (typeof element === "object") {
-
+                    console.log(timeSpace, timeBreakLine, timeWriter, element);
                     if (!element.timeSpace)
                         element.timeSpace = 60;
                     if (!element.timeBreakLine)
@@ -20,7 +20,6 @@
                     let timeBreakLine = element.timeBreakLine;
                     let timeWriter = element.timeWriter;
                     let element = element.element;
-                    console.log(timeSpace, timeBreakLine, timeWriter, element);
                 } else {
                     return;
                 }
